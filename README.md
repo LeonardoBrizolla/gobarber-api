@@ -1,1 +1,1 @@
-# gobarber-bootcamp
+# gobarber-api
