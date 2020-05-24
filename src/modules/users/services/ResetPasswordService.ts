@@ -7,8 +7,8 @@ import IUserTokensRepository from '../repositories/IUserTokensRepository';
 import IHashProvider from '../providers/HashProvider/models/IHashProvider';
 
 interface IRequest {
-  token: string;
   password: string;
+  token: string;
 }
 
 @injectable()
@@ -20,7 +20,7 @@ class ResetPassowordService {
     @inject('UserTokensRepository')
     private userTokensRepository: IUserTokensRepository,
 
-    @inject('hashProvider')
+    @inject('HashProvider')
     private hashProvider: IHashProvider,
   ) {}
 
