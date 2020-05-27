@@ -1,4 +1,4 @@
-# Recuparacao de senha
+# Recuparacao de senha - DONE! SUCESS! s2
 
 **RF**
 
@@ -25,7 +25,7 @@
 
 **RN**
 
-- O usuario nao pode alterar seu e-mail para um ja utilizado no app;
+- O usuario nao pode alterar seu e-mail para um já utilizado no app;
 - Para atualizar sua senha, o usuario deve informar a senha antiga;
 - Para atualizar sua senha, o usuario precisa confirmar a nova senha;
 
@@ -69,8 +69,9 @@
 - O usuario nao pode agendar serviços consigo mesmo;
 
 # Tips
+
 - Think on macro functions first ('#'). Basic the pages.
-- Think on micro fonctions second ('****')
+- Think on micro fonctions second ('\*\*\*\*')
 - RF = Requisitos Funcionais
   - Eh exatamente as funcoes que vamos ter dentro da macro tema
   - Exemplo: O usuario vai poder recuperar a senha utilizando o e-mail antigo dele
