@@ -1,11 +1,15 @@
-node_modules/
-.vscode
 .idea/
+.vscode
+node_modules/
 build/
 temp/
+.env
+coverage
+ormconfig.json
 
 tmp/*
 !tmp/.gitkeep
-ormconfig.json
+
+
 .DS_Store
 LEARNED.md
